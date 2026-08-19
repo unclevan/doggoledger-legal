@@ -16,6 +16,7 @@
       <span>黑狗记账</span>
     </a>
     <nav aria-label="主要导航">
+      <a href="support.html">技术支持</a>
       <a aria-current="page" href="privacy.html">隐私政策</a>
     </nav>
   </header>
@@ -62,7 +63,7 @@
       <section id="purchases">
         <h2>四、购买与恢复购买</h2>
         <p>App 使用 Apple StoreKit 获取商品信息、发起购买、验证权益和恢复购买。支付和交易由 Apple 处理。我们不会接收或保存你的银行卡号、支付凭据或完整 Apple ID。</p>
-        <p>App 会在设备上读取 Apple 返回的商品标识和已验证权益状态，用于判断是否解锁免广告、第三方数据导入、iCloud 自动同步或组合包功能。</p>
+        <p>App 会在设备上读取 Apple 返回的商品标识和已验证权益状态，用于判断是否解锁免广告、第三方数据导入、iCloud 自动同步或优惠组合包功能。</p>
       </section>
 
       <section id="imports-backups">
@@ -99,7 +100,8 @@
       <section id="retention-deletion">
         <h2>十、保存期限与删除</h2>
         <p>本机数据会保存至你主动删除相关内容、清除 App 数据或卸载 App。你可以在 App 内删除单笔账单和分类；删除分类不会自动删除历史账单中的分类名称和图标快照。</p>
-        <p>我们计划在首个上架版本中提供“清除全部数据”功能。该功能上线后，你可以清除本机账单、分类和可重建缓存；如已开启 iCloud，同步删除会传递到使用同一 iCloud 账号的其他设备。正式发布前，我们会再次核对该功能与本段说明完全一致。</p>
+        <p>你可以在 App 设置中使用“删除所有账本数据”。该操作会先要求设备所有者认证，并在认证成功后再次要求最终确认。确认删除后，App 会永久删除全部账目和分类数据，并为新的数据集创建系统默认分类；如已开启 iCloud Sync，删除结果会同步至使用同一 iCloud 账号的其他设备。</p>
+        <p>“删除所有账本数据”不会删除 StoreKit 购买权益、iCloud 开启偏好、普通 App 设置或此前手工导出的备份文件。</p>
         <p>卸载 App 或关闭自动同步不一定删除已同步至 iCloud 的内容。你可以通过 Apple 提供的 iCloud 存储管理功能管理相关云端数据。由于 CloudKit 私有数据库默认仅你本人可访问，我们无法代替你直接查看或删除其中的账单。</p>
       </section>
 
@@ -142,7 +144,7 @@
 
   <footer class="site-footer">
     <p>© 2026 FAN CHENGBIN</p>
-    <p><a href="index.html">首页</a><span aria-hidden="true"> · </span><a href="mailto:i@fanchengb.in">i@fanchengb.in</a></p>
+    <p><a href="index.html">首页</a><span aria-hidden="true"> · </span><a href="support.html">技术支持</a><span aria-hidden="true"> · </span><a href="mailto:i@fanchengb.in">i@fanchengb.in</a></p>
   </footer>
 </body>
 </html>

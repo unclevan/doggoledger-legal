@@ -94,6 +94,12 @@ nav a {
   text-decoration: none;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 nav a[aria-current="page"] { color: var(--text); }
 
 .home-main { padding: 94px 0 72px; }
@@ -294,6 +300,7 @@ h1 {
   body { font-size: 16px; line-height: 1.7; }
   .site-header, .site-footer, .home-main, .policy-layout { width: min(100% - 28px, 680px); }
   .site-header { min-height: 66px; }
+  nav { gap: 12px; }
   .home-main { padding: 62px 0 48px; }
   .hero-copy { margin-top: 22px; }
   .feature-grid { grid-template-columns: 1fr; margin-top: 58px; }
